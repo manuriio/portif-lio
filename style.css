@@ -1,6 +1,166 @@
-body{
-    background-image: url(./image/download\ \(9\).jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    border-color: #FFFCEB;
+}
+
+.hero {
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .esquerda {
+    color: #E2B2C2;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero .direita {
+    color: #E2B2C2;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero img {
+    height: 85vh;
+    margin-bottom: 250px;
+}
+
+#sobremim {
+    background-color: #062345;
+    height: 87vh;
+    background-image: url("./image/bbmanu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+
+#sobremim p {
+    color: #ffc5d8;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 180px;
+}
+
+.texto h1 {
+    color: #FE69BB;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 80px;
+    width: 601px;
+    height: 177px;
+}
+
+
+    .texto {
+        background-color: #611B41;
+        width: 623px;
+        height: 218px;
+        flex-shrink: 0;
+        border-radius: 21px;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 180px;
+    }
+
+
+    a {
+        color: #E2B2C2;
+        font-family: "Quicksand";
+        text-decoration: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 17px;
+    }
+
+    .titulo {
+        text-align: center;
+        gap: 35px;
+        margin-top: 150px;
+    }
+
+    .titulo h1 {
+        color: #FE69BB;
+        font-family: Quicksand;
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .titulo h2 {
+        color: #611B41;
+        font-family: Quando;
+        font-size: 60px;
+    }
+
+    .titulo h3 {
+        color: #FE69BB;
+        font-family: Imperial Script;
+        font-size: 160px;
+        font-weight: 500;
+        z-index: 3;
+    }
+
+    #projetos {
+        background-color: #6A83AB;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffc5d8;
+        font-size: 60px;
+        font-family: 'Quicksand';
+        text-align: center;
+        gap: 35px;
+    }
+
+    #contatos {
+        position: relative;
+        background-color: #6A83AB;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffc5d8;
+        text-align: center;
+        gap: 35px;
+    }
+
+    #contatos p {
+        font-size: 60px;
+        font-family: 'Quicksand';
+    }
+
+    #contatos .h {
+        font-size: 24px;
+        font-family: 'Quando';
+    }
+
+    .contact{
+        margin-top: 200px;
+    }
+
+   
+    .ursinho{
+        width: 250px;
+        position: absolute;
+        left: 0;
+        margin-top: 120px;
+    }
