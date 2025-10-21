@@ -41,7 +41,7 @@ body {
 #sobremim {
     background-color: #062345;
     height: 87vh;
-    background-image: url("./image/bbmanu.png");
+    background-image: url("./image/Captura\ de\ tela\ 2025-10-21\ 104238.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px;
@@ -50,9 +50,9 @@ body {
 #sobremim p {
     color: #ffc5d8;
     font-family: Quicksand;
-    font-size: 32px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 180px;
 }
 
@@ -90,8 +90,13 @@ body {
     .menu {
         display: flex;
         justify-content: space-evenly;
-        font-size: 17px;
+        font-size: 30px;
     }
+    
+    .menu a:hover {
+        color: rgb(255, 0, 140); /* cor ao passar o mouse */
+    }
+    
 
     .titulo {
         text-align: center;
@@ -120,21 +125,101 @@ body {
         z-index: 3;
     }
 
-    #projetos {
-        background-color: #6A83AB;
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: #ffc5d8;
-        font-size: 60px;
-        font-family: 'Quicksand';
-        text-align: center;
-        gap: 35px;
-    }
+   /* Container dos projetos */
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Card individual */
+  .card {
+    background-color: var(--cor, #ddd);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  /* Topo do card */
+  .topo {
+    background-color: rgba(0,0,0,0.05);
+    padding: 15px 20px;
+  }
+  
+  .topo h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  /* Conteúdo do card */
+  .conteudo {
+    padding: 20px;
+  }
+  
+  .categoria {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .conteudo h4 {
+    margin: 5px 0 10px 0;
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .conteudo p {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.4;
+  }
+  
+  /* Links do card */
+  .links {
+    margin-top: 15px;
+  }
+  
+.titulo h6 {
+    color: #ffc5d8;
+    font-family: Quicksand;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+  .links a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .links a:hover {
+    background-color: #555;
+  }
 
     #contatos {
         position: relative;
-        background-color: #6A83AB;
+        background-color: #CABAA1;
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
